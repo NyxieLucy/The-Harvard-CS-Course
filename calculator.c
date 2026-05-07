@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main(void){
     char operator [1];
-    printf("what kinda operator do ya wanna use? (+,-,*,/): ");
-    scanf("%c", operator);
+
     int x;
     int y;
     printf("what's your first number?: ");
     scanf("%i", &x);
+    printf("what kinda operator do ya wanna use? (+,-,*,/): ");
+    scanf("%c", operator);
     printf("what's your second number?: ");
     scanf("%i", &y);
     if (operator == "+") {
@@ -30,8 +31,6 @@ int main(void){
             printf("you can't devide by 0");
         }
     }
-    else {
-        printf("unvalid operation");
-    }
+
 
 }
