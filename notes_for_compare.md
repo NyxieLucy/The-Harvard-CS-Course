@@ -2,6 +2,7 @@ i see the output of the first print, but the second comes in with the compairing
 also, the conditions are reversed for some reason
 ----------------------------------------------------------------------
 ## the example code:
+``
 #include <stdio.h>
 int main(void){
     int x;
@@ -22,5 +23,6 @@ int main(void){
         printf("the first number is smaller than the second");
     }
 }
+``
 ----------------------------------------------------------------------
 my bad y'all i didn't compile it lmaooooooo (there goes 15mins)

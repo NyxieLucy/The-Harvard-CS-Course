@@ -10,12 +10,8 @@ int main(void){
     else if (age < 18) {
         printf("you are a minor");
     }
-
-    else if (age >= 18) {
-        printf("you are an adult");
-    }
     else {
-        printf("subhana allah an alient");
+        printf("you're an adult!");
     }
     
 }
